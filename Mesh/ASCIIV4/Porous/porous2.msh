@@ -14,7 +14,7 @@ $PhysicalNames
 1 9 "interior porous 2"
 1 10 "interior porous 1"
 1 11 "interior porous 3"
-2 7 "2D Domain"
+2 12 "2D Domain"
 $EndPhysicalNames
 $Entities
 11 11 1 0
