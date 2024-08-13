@@ -1,7 +1,5 @@
 Merge "porous_02.msh";
 //+
-Physical Point(1) -= {4, 5, 6, 7, 10, 11, 9, 3, 2, 1, 8};
-//+
 Physical Curve("bottom concave", 1) = {1};
 //+
 Physical Curve("bottom left", 2) = {2};
@@ -16,28 +14,12 @@ Physical Curve("top right", 6) = {6};
 //+
 Physical Curve("right", 7) = {7};
 //+
-Physical Curve("bottom right", 8) = {10, 8};
+Physical Curve("bottom right", 8) = {8};
 //+
-Physical Curve("inter hole 1", 9) = {10};
+Physical Curve("hole1", 9) = {9};
 //+
-Physical Curve("inter hole 2", 11) = {9};
+Physical Curve("hole2", 10) = {10};
 //+
-Physical Curve("inter hole 3", 12) = {11};
-//+
-Physical Curve(" inter hole 2", 11) -= {9};
-//+
-Physical Curve(" inter hole 3", 12) -= {11};
-//+
-Physical Curve("inter hole 2", 10) = {9};
-//+
-Physical Curve("inter hole 3", 13) = {11};
-//+
-Physical Curve("inter hole 3", 11) = {11};
-//+
-Physical Curve("inter hole 3", 11) = {11};
-//+
-Physical Curve(" inter hole 3", 13) -= {11};
-//+
-Physical Curve("inter hole 3", 11) = {11};
+Physical Curve("hole3", 11) = {11};
 //+
 Physical Surface("2D Domain", 12) = {7};
